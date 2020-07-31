@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>WELCOME TO URL TEMPLATES</h1>
+  <a href="{% url 'basic_app:other' %}">THE OTHER PAGE</a> <!--  basic_app used here is from appname used in urls.py , and alse dont leave any space btw ''  -->
+  <a href="{% url 'admin:index' %}">LINK TO ADMIN</a>   <!--first migration command -->
+  <a href="{% url 'index' %}">LINK TO INDEX!</a>
+  </body>
+</html>
